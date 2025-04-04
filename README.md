@@ -1,49 +1,41 @@
-# Telco-Customer-Churn-Prediction
 Telco Customer Churn Prediction
-Overview
-This project aims to predict customer churn in a telecommunications company using machine learning models. Churn prediction helps identify customers likely to leave, enabling businesses to implement retention strategies effectively.
+📌 Overview
+This project focuses on predicting customer churn in a telecommunications company using machine learning techniques. Churn prediction is crucial for identifying customers likely to leave, enabling proactive retention strategies.
 
-The dataset includes various customer attributes, such as services availed, account information, and demographics. Preprocessing techniques, hyperparameter tuning, and resampling methods like SMOTEENN were employed to ensure high model performance and accuracy.
+The dataset contains customer attributes such as service usage, account details, and demographics. Feature engineering, resampling, hyperparameter tuning, and model evaluation were applied to improve prediction accuracy.
 
-Features of the Project
-One-Hot Encoding: Encoded categorical variables for model compatibility.
+🚀 Features of the Project
+🔹 One-Hot Encoding – Converted categorical variables into numerical format for model compatibility.
+🔹 Resampling (SMOTEENN) – Addressed class imbalance to enhance predictions for minority classes (churned customers).
+🔹 Feature Scaling – Used MinMaxScaler to ensure uniform feature ranges.
+🔹 Hyperparameter Tuning – Employed GridSearchCV and RandomizedSearchCV for optimal model selection.
+🔹 Pipeline Automation – Integrated preprocessing and model evaluation into Scikit-learn pipelines for efficiency.
 
-Resampling: Used SMOTEENN to address class imbalance and improve predictions for minority classes (churned customers).
+📊 Machine Learning Models Evaluated
+The following models were tested and optimized:
 
-Feature Scaling: Applied MinMaxScaler for consistent feature ranges.
+✅ Random Forest
+✅ Gradient Boosting
+✅ Support Vector Machine (SVM)
+✅ Logistic Regression
+✅ K-Nearest Neighbors (KNN)
+✅ Decision Tree
+✅ AdaBoost
+✅ XGBoost
+✅ Naive Bayes
 
-Hyperparameter Tuning: Leveraged GridSearchCV and RandomizedSearchCV for model optimization.
+Each model underwent hyperparameter tuning, and their performance was compared using various evaluation metrics.
 
-Pipeline: Automated preprocessing and model evaluation using Scikit-learn pipelines.
+📈 Results & Performance Metrics
+🔹 Best-performing model: (Mention the best model)
+🔹 Accuracy: 99%
+🔹 High Precision, Recall, and F1-score for churn prediction (Class 1).
+🔹 Confusion Matrix & Bar Charts – Visualized model accuracy and classification errors.
 
-Models Evaluated
-The following machine learning models were evaluated:
+📂 Project Structure
+bash
 
-Random Forest
-
-Gradient Boosting
-
-Support Vector Machine (SVM)
-
-Logistic Regression
-
-K-Nearest Neighbors (KNN)
-
-Decision Tree
-
-AdaBoost
-
-XGBoost
-
-Naive Bayes
-
-Each model was tested with hyperparameter tuning, and their performance was compared.
-
-Results
-The overall best-performing model achieved:
-
-Accuracy: 99%
-
-High precision, recall, and F1-score for predicting churn (Class 1).
-
-Detailed performance metrics for each model are visualized in a bar chart, showcasing their accuracy scores. Confusion matrices were also analyzed to understand prediction errors.
+📁 Telco-Customer-Churn-Prediction
+│── 📄 README.md                               # Project documentation
+│── 📄 Telco_Customer_Churn_Prediction.ipynb   # Jupyter Notebook with the full workflow                            # Dataset used for training & testing
+│── 📄 dataset.csv                             # Dataset used for training & testing
