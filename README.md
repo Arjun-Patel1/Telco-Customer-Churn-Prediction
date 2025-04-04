@@ -57,9 +57,11 @@ Each model underwent hyperparameter tuning, and their performance was compared u
 🔹 Confusion Matrix & Bar Charts – Visualized model accuracy and classification errors.
 
 📂 Project Structure
-bash
 
 📁 Telco-Customer-Churn-Prediction
+
 │── 📄 README.md                               # Project documentation
+
 │── 📄 Telco_Customer_Churn_Prediction.ipynb   # Jupyter Notebook with the full workflow
+
 │── 📄 dataset.csv                             # Dataset used for training & testing
