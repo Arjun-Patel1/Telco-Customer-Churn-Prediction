@@ -1,15 +1,22 @@
 Telco Customer Churn Prediction
+
 📌 Overview
+
 This project focuses on predicting customer churn in a telecommunications company using machine learning techniques. Churn prediction is crucial for identifying customers likely to leave, enabling proactive retention strategies.
 
 The dataset contains customer attributes such as service usage, account details, and demographics. Feature engineering, resampling, hyperparameter tuning, and model evaluation were applied to improve prediction accuracy.
 
 🚀 Features of the Project
 
+
 🔹 One-Hot Encoding – Converted categorical variables into numerical format for model compatibility.
+
 🔹 Resampling (SMOTEENN) – Addressed class imbalance to enhance predictions for minority classes (churned customers).
+
 🔹 Feature Scaling – Used MinMaxScaler to ensure uniform feature ranges.
+
 🔹 Hyperparameter Tuning – Employed GridSearchCV and RandomizedSearchCV for optimal model selection.
+
 🔹 Pipeline Automation – Integrated preprocessing and model evaluation into Scikit-learn pipelines for efficiency.
 
 📊 Machine Learning Models Evaluated
