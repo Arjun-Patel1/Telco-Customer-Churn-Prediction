@@ -19,25 +19,41 @@ The dataset contains customer attributes such as service usage, account details,
 
 🔹 Pipeline Automation – Integrated preprocessing and model evaluation into Scikit-learn pipelines for efficiency.
 
+
 📊 Machine Learning Models Evaluated
+
 The following models were tested and optimized:
 
+
 ✅ Random Forest
+
 ✅ Gradient Boosting
+
 ✅ Support Vector Machine (SVM)
+
 ✅ Logistic Regression
+
 ✅ K-Nearest Neighbors (KNN)
+
 ✅ Decision Tree
+
 ✅ AdaBoost
+
 ✅ XGBoost
+
 ✅ Naive Bayes
 
 Each model underwent hyperparameter tuning, and their performance was compared using various evaluation metrics.
 
+
 📈 Results & Performance Metrics
+
 🔹 Best-performing model: (Mention the best model)
+
 🔹 Accuracy: 99%
+
 🔹 High Precision, Recall, and F1-score for churn prediction (Class 1).
+
 🔹 Confusion Matrix & Bar Charts – Visualized model accuracy and classification errors.
 
 📂 Project Structure
@@ -45,5 +61,5 @@ bash
 
 📁 Telco-Customer-Churn-Prediction
 │── 📄 README.md                               # Project documentation
-│── 📄 Telco_Customer_Churn_Prediction.ipynb   # Jupyter Notebook with the full workflow                            # Dataset used for training & testing
+│── 📄 Telco_Customer_Churn_Prediction.ipynb   # Jupyter Notebook with the full workflow
 │── 📄 dataset.csv                             # Dataset used for training & testing
